@@ -1,5 +1,5 @@
 # Portfolio Website
-Welcome to my portfolio website! This site serves as a showcase of my work, skills, and projects. It’s a place where I share my journey as a developer, my skills, and the projects I've worked on.
+Welcome to my portfolio! This site serves as a showcase of my work, skills, and projects. It’s a place where I share my journey as a developer, my skills, and the projects I've worked on.
 
 ### Website URL
 You can view the portfolio live at: https://esarandon.github.io/portfolio/
