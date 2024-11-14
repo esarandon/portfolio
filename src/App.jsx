@@ -95,12 +95,12 @@ function App() {
               <h4>Hello World!</h4>
               <Card.Text>
                 {/* About Me Text */}
-                With a decade of experience leading sustainability projects, I pursued my dream of becoming a software developer.
+                With a decade of experience leading sustainability projects, I pursued my dream of becoming a software developer. <br />
                 I bring a strong foundation in backend technologies, particularly JavaScript, C#, and Python, with hands-on expertise in frameworks like ReactJS and Next.js.
-                My experience in IoT and embedded systems, paired with my proficiency in protocols such as MQTT and secure communication via SSH, equips me with a unique perspective for developing robust, efficient, and secure applications.
                 I am skilled in managing databases like Postgres with Prisma and in building tailored REST APIs for IoT devices.
-                Additionally, my technical background includes C++ for embedded systems, data analysis with Jupyter Notebooks, and experience integrating various hardware components.
-                I am eager to apply my technical skills, curiosity, and commitment to quality in a new role that challenges me and allows me to contribute meaningfully to the team’s success as I continue to grow as a developer.
+                My background in IoT and embedded systems, along with proficiency in protocols like MQTT and secure communication through SSH, gives me a unique perspective for developing robust, efficient, and secure applications.
+                Additionally, my technical experience includes C++ for embedded systems and the integration of various hardware components.
+                I am ready to channel all this passion and curiosity into action and reach the next stage in my journey as a developer.
               </Card.Text>
               {/* Contact Information */}
               <div className="contact-info contact-info-custom">
@@ -117,8 +117,8 @@ function App() {
         {/* Main Content Area */}
         <Col xs={12} md={8} lg={9} className="main-content" >
           <Card.Body className='section-body'>
-            <h1>ESTANISLAO SARANDÓN'S PORTFOLIO</h1>
-            <p>Some of my personal projects</p>
+            <h1>ESTANISLAO SARANDÓN</h1>
+            <p>Welcome to my portfolio! It’s a place where I share my journey as a developer, my skills, and the projects I've worked on.</p>
           </Card.Body>
 
           {/* Project Cards */}
@@ -157,7 +157,7 @@ function App() {
           </Card.Body>
         </Col>
       </Row>
-    </Container>
+    </Container >
   );
 }
 
