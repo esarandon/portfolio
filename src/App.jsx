@@ -117,7 +117,7 @@ function App() {
         {/* Main Content Area */}
         <Col xs={12} md={8} lg={9} className="main-content" >
           <Card.Body className='section-body'>
-            <h1>ESTANISLAO SARANDÓN</h1>
+            <h1>ESTANI SARANDÓN</h1>
             <p>Welcome to my portfolio! It’s a place where I share my journey as a developer, my skills, and the projects I've worked on.</p>
           </Card.Body>
 
