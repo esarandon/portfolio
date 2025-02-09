@@ -13,6 +13,8 @@ jobs:
       # Checkout the repository
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       # Set up Node.js
       - name: Setup Node.js
@@ -36,6 +38,6 @@ jobs:
 
       # Deploy to GitHub Pages
       - name: Deploy
-        run: npm run deploy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run deploy
