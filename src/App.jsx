@@ -92,7 +92,7 @@ function App() {
           <Card className="mb-4 shadow rounded-0">
             <Card.Img variant="top" key={0} src={images.me} className="profile-img" />
             <Card.Body className='card-body-sidebar'>
-              <h4>Hello World!</h4>
+              <h4>Hi!</h4>
               <Card.Text>
                 {/* About Me Text */}
                 With a decade of experience leading sustainability projects, I pursued my dream of becoming a software developer. <br />
